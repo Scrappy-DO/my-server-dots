@@ -2,9 +2,9 @@
 
 if [[ "$1" == "doas" ]]
 then 
-doas apk add lsd zellij bat fish starship git wget curl neovim
+doas apk add lsd zellij bat fish starship git wget curl neovim btop
 else
-apk add lsd zellij bat fish starship git wget curl neovim
+apk add lsd zellij bat fish starship git wget curl neovim btop
 fi
 
 mkdir -p ~/.config
