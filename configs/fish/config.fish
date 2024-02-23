@@ -28,5 +28,7 @@ export PATH="$PATH:/usr/games/"
 export PATH="$PATH:/home/scrappy/apps/idea-IC-233.11799.241/bin"
 ### exports ###
 
+zoxide init fish | source
+alias cd="z"
 
 starship init fish | source
